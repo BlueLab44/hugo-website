@@ -1,0 +1,130 @@
+baseurl = "https://BlueLab44.github.io/"
+languageCode = "fr"
+title = "Blue Lab"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+publishDir = "public"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Blue Lab"
+	description = "Blue Lab est un espace dédidé à la création avec un Fab Lab et un Fab Idea"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Blue Lab"
+
+		[params.navigation.links]
+			about     = "Présentation"
+			services  = "Nos services"
+			portfolio = "Portfolio"
+			contact   = "Contact"
+      test = "test"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Un lieu d'innovation et de créativité Nazairien"
+		subtitle   = "En 2018, faire de Saint-Nazaire et de sa région un carrefour du développement économique grâce au numérique et à l’intelligence collective."
+		buttonText = "Découvrez le Blue Lab"
+
+
+	# About section
+	[params.about]
+		headline    = "Un booster d’attractivité"
+		description = "Créer dans l’hyper centre de Saint-Nazaire un lieu convivial de partage de connaissances, de savoir faire et d’expériences inter-générationnelles, pour accélerer la créativité et développer l’économie du territoire."
+		#buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "Nos services"
+
+        [[params.services.list]]
+            icon = "fa-gears"
+            title = "Fab Lab"
+            description = "Un espace entièrement dédié à la création et l'expérimentation"
+
+        [[params.services.list]]
+			icon = "fa-lightbulb-o"
+			title = "Fab Idea"
+			description = "Challenger vos idées auprès d'un panel d'experts"
+
+		[[params.services.list]]
+            icon = "fa-coffee"
+            title = "Co-Working"
+            description = "Travailler dans un lieu convivial et ouvert"
+
+        [[params.services.list]]
+            icon = "fa-suitcase"
+            title = "Club d'entrepreneur"
+            description = "Un réseau de professionnel ouvert sur la collaboration et l'innovation"
+
+        [[params.services.list]]
+            icon = "fa-rocket"
+            title = "Incubateur Start-up"
+            description = "Prototyper et concevoir votre produit/service"
+
+        [[params.services.list]]
+            icon = "fa-graduation-cap"
+            title = "Campus Étudiant"
+            description = "Un lieu d'échanges et d'apprentissage"
+            
+        [[params.services.list]]
+            icon = "fa-building-o"
+            title = "Pépinière de projets"
+            description = "Développer et collaborer sur des projets"
+            
+        [[params.services.list]]
+            icon = "fa-thermometer"
+            title = "Espace Scientifique"
+            description = "Expérimenter et découvrir pour inventer le monde de demain"
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+	#headline = "Get the Creative Theme for Hugo"
+
+  [params.aside.button]
+	text = "Accès wiki"
+  link = "http://bluelab44.fr"
+
+	# Contact section
+	[params.contact]
+		headline = "Nous contacter"
+		description = "Vous êtes intéressé par notre projet ? Vous pouvez nous contacter par mail et suivre l'avancée de l'aventure sur les réseaux sociaux."
+		#phone = "123-456-6789"
+		email = "contact@bluelab44.fr"
+    twitter = "@BlueLab44"
+    facebook = "BlueLab44"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""

@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:BlueLab44/BlueLab44.github.io.git
+	branch = master
