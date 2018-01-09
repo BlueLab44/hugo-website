@@ -34,7 +34,7 @@ publishDir = "public"
 
 		[params.navigation.links]
 			about     = "Présentation"
-			services  = "Nos services"
+			services  = "Nos futurs services"
 			portfolio = "Portfolio"
 			contact   = "Contact"
       test = "test"
@@ -51,13 +51,13 @@ publishDir = "public"
 	# About section
 	[params.about]
 		headline    = "Un booster d’attractivité"
-		description = "Créer dans l’hyper centre de Saint-Nazaire un lieu convivial de partage de connaissances, de savoir faire et d’expériences inter-générationnelles, pour accélerer la créativité et développer l’économie du territoire."
+		description = "Notre mission : créer dans l’hyper centre de Saint-Nazaire un lieu convivial de partage de connaissances, de savoir faire et d’expériences inter-générationnelles, pour accélerer la créativité et développer l’économie du territoire."
 		#buttonText  = "Get started!"
 
 
 	# Service section
 	[params.services]
-		headline = "Nos services"
+		headline = "Nos futurs services"
 
         [[params.services.list]]
             icon = "fa-gears"
@@ -112,7 +112,7 @@ publishDir = "public"
 
   [params.aside.button]
 	text = "Accès wiki"
-  link = "http://bluelab44.fr"
+  link = "https://wiki.bluelab44.fr"
 
 	# Contact section
 	[params.contact]
