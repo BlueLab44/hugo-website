@@ -36,6 +36,8 @@
             {{ partial "contact.html" . }}
         {{ end }}
 
+        {{ partial "footer.html" . }}
+
         {{ if .Site.Data.projects }}
             {{ partial "modals.html" . }}
         {{ end }}

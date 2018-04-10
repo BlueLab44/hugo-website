@@ -492,3 +492,12 @@ body {
     overflow: visible;
     position: relative;
 }
+
+#footer .logo{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+#footer {
+  padding: 25px 0;
+}

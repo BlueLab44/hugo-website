@@ -1,8 +1,8 @@
-baseurl = "https://BlueLab44.github.io/"
+baseurl = "https://bluelab44.fr/"
 languageCode = "fr"
 title = "Blue Lab"
 theme = "hugo-creative-theme"
-googleAnalytics = ""
+googleAnalytics = "UA-112187452-1"
 publishDir = "public"
 
 [params]
@@ -118,7 +118,7 @@ publishDir = "public"
 	[params.contact]
 		headline = "Nous contacter"
 		description = "Vous êtes intéressé par notre projet ? Vous pouvez nous contacter par mail et suivre l'avancée de l'aventure sur les réseaux sociaux."
-		#phone = "123-456-6789"
+		phone = "07 67 90 07 21"
 		email = "contact@bluelab44.fr"
     twitter = "@BlueLab44"
     facebook = "BlueLab44"

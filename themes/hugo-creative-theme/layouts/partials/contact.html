@@ -16,13 +16,13 @@
             {{ if .Site.Params.contact.phone }}
                 <div class="
                 {{ if .Site.Params.contact.email }}
-                    col-lg-3
+                    col-lg-2
                 {{ else }}
                     col-lg-3
                 {{ end }}
                 col-lg-offset-1 text-center">
                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>{{ .Site.Params.contact.phone }}</p>
+                    <p><a href="tel:{{ .Site.Params.contact.phone }}">{{ .Site.Params.contact.phone }}</a></p>
                 </div>
             {{ end }}
             {{ if .Site.Params.contact.email }}
