@@ -42,6 +42,10 @@
         }
     })
 
+    $("#location").click(function(){$("iframe",this).css("pointer-events","auto")});
+    $("#location").mouseleave(function(){$("iframe",this).css("pointer-events","none")});
+    $("#location iframe").css("pointer-events","none");
+
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 

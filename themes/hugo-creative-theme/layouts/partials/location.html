@@ -1,14 +1,6 @@
 
 {{ if and .Site.Params.location.latitude .Site.Params.location.longitude }}
 <section id="location" class="no-padding">
-    <div class="hidden">
-        <input id="gmap-lat" value="{{ .Site.Params.location.latitude }}" />
-        <input id="gmap-lng" value="{{ .Site.Params.location.longitude }}" />
-    </div>
-    <a href="https://www.google.com/maps?z=16&q={{ .Site.Params.location.latitude }},{{ .Site.Params.location.longitude }}&ll={{ .Site.Params.location.latitude }},{{ .Site.Params.location.longitude }}">
-        <div id="map">
-            &nbsp;
-        </div>
-    </a>
+<iframe height="300px" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-2.2140213847160344%2C47.2809485726638%2C-2.2095420956611638%2C47.28258438694231&amp;layer=mapnik&amp;marker=47.28176739592206%2C-2.2117817401885986" style=""></iframe>
 </section>
 {{ end }}

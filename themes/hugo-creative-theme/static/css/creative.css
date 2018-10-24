@@ -487,6 +487,10 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
+#location {
+	margin-bottom: -5px;
+}
+
 #map {
     height: 300px;
     overflow: visible;
@@ -500,4 +504,8 @@ body {
 
 #footer {
   padding: 25px 0;
+}
+
+#footer a{
+  color: #fff;
 }

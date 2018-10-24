@@ -34,7 +34,7 @@ publishDir = "public"
 
 		[params.navigation.links]
 			about     = "Présentation"
-			services  = "Nos futurs services"
+			services  = "Nos services"
 			portfolio = "Portfolio"
 			contact   = "Contact"
       test = "test"
@@ -44,20 +44,20 @@ publishDir = "public"
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Un lieu d'innovation et de créativité Nazairien"
-		subtitle   = "En 2018, faire de Saint-Nazaire et de sa région un carrefour du développement économique grâce au numérique et à l’intelligence collective."
+		subtitle   = "Faire de Saint-Nazaire et de sa région un carrefour du développement économique grâce au numérique et à l’intelligence collective."
 		buttonText = "Découvrez le Blue Lab"
 
 
 	# About section
 	[params.about]
 		headline    = "Un booster d’attractivité"
-		description = "Notre mission : créer dans l’hyper centre de Saint-Nazaire un lieu convivial de partage de connaissances, de savoir faire et d’expériences inter-générationnelles, pour accélerer la créativité et développer l’économie du territoire."
+		description = "Notre mission : créer dans l’hyper centre de Saint-Nazaire un lieu convivial de partage de connaissances, de savoir faire et d’expériences inter-générationnelles, pour accélérer la créativité et développer l’économie du territoire."
 		#buttonText  = "Get started!"
 
 
 	# Service section
 	[params.services]
-		headline = "Nos futurs services"
+		headline = "Nos services"
 
         [[params.services.list]]
             icon = "fa-gears"
@@ -66,38 +66,43 @@ publishDir = "public"
 
         [[params.services.list]]
 			icon = "fa-lightbulb-o"
-			title = "Fab Idea"
+			title = "Booster Lab"
 			description = "Challenger vos idées auprès d'un panel d'experts"
 
-		[[params.services.list]]
-            icon = "fa-coffee"
-            title = "Co-Working"
-            description = "Travailler dans un lieu convivial et ouvert"
+		# [[params.services.list]]
+        #   icon = "fa-coffee"
+        #   title = "Co-Working"
+        #   description = "Travailler dans un lieu convivial et ouvert"
 
         [[params.services.list]]
             icon = "fa-suitcase"
             title = "Club d'entrepreneur"
             description = "Un réseau de professionnel ouvert sur la collaboration et l'innovation"
 
-        [[params.services.list]]
-            icon = "fa-rocket"
-            title = "Incubateur Start-up"
-            description = "Prototyper et concevoir votre produit/service"
+        # [[params.services.list]]
+        #    icon = "fa-rocket"
+        #    title = "Incubateur Start-up"
+        #    description = "Prototyper et concevoir votre produit/service"
+
+        # [[params.services.list]]
+        #    icon = "fa-graduation-cap"
+        #    title = "Campus Étudiant"
+        #    description = "Un lieu d'échanges et d'apprentissage"
 
         [[params.services.list]]
             icon = "fa-graduation-cap"
-            title = "Campus Étudiant"
-            description = "Un lieu d'échanges et d'apprentissage"
+            title = "Formations"
+            description = "Venez vous former sur le numérique et l'innovation"
+
+        # [[params.services.list]]
+        #    icon = "fa-building-o"
+        #    title = "Pépinière de projets"
+        #    description = "Développer et collaborer sur des projets"
             
-        [[params.services.list]]
-            icon = "fa-building-o"
-            title = "Pépinière de projets"
-            description = "Développer et collaborer sur des projets"
-            
-        [[params.services.list]]
-            icon = "fa-thermometer"
-            title = "Espace Scientifique"
-            description = "Expérimenter et découvrir pour inventer le monde de demain"
+        # [[params.services.list]]
+        #    icon = "fa-thermometer"
+        #    title = "Espace Scientifique"
+        #    description = "Expérimenter et découvrir pour inventer le monde de demain"
 
     # Portfolio modals
 	[params.portfolio.modal]
@@ -117,14 +122,14 @@ publishDir = "public"
 	# Contact section
 	[params.contact]
 		headline = "Nous contacter"
-		description = "Vous êtes intéressé par notre projet ? Vous pouvez nous contacter par mail et suivre l'avancée de l'aventure sur les réseaux sociaux."
+		description = "Vous êtes intéressé par notre projet ? Vous pouvez nous contacter par téléphone, mail et nous suivre sur les réseaux sociaux."
 		phone = "07 67 90 07 21"
 		email = "contact@bluelab44.fr"
     twitter = "@BlueLab44"
     facebook = "BlueLab44"
 
 	# Google Maps section
-	# [params.location]
-	# 	latitude  = "34.007850"
-	# 	longitude = "-118.499305"
-	# 	maps_api_key = ""
+	[params.location]
+		latitude  = "34.007850"
+		longitude = "-118.499305"
+    maps_api_key = ""
